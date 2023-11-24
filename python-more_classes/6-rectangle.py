@@ -1,4 +1,4 @@
-!/usr/bin/python3
+#!/usr/bin/python3
 """calculates and return the area of the rectangle
 """
 
