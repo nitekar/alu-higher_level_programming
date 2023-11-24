@@ -1,4 +1,15 @@
 #!/usr/bin/python3
+""" empty class function that defines a Rectangle
+"""
+
+'''
+File_name: 0-rectangle.py
+Created: 24-NOV-2023
+Author: ROXANNE NITEKA (nitekar)
+Size: Large
+Project: python-more_classes
+Status: Not yet submitted.
+'''
 
 
 class Rectangle:
