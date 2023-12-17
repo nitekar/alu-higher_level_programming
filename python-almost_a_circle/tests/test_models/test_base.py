@@ -20,13 +20,13 @@ class TestBase(unittest.TestCase):
     def test_base_initialization(self):
         """Test base initialization and id assignment"""
         base = Base()
-        base_1 = Base(1)
+        base_1 = Base()
         base_89 = Base(89)
         self.assertEqual(base.id, 1)
         self.assertEqual(base_1.id, 2)
         self.assertEqual(base_89.id, 89)
 
-     def test_to_json_string(self):
+    def test_to_json_string(self):
         """Test converting objects to JSON string"""
         self.assertEqual(Base.to_json_string(None), "[]")
         self.assertEqual(Base.to_json_string([]), "[]")
